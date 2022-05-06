@@ -39,7 +39,7 @@ end
 -- map buffer local keybindings when the language server attaches
 -- local servers = { 'pyright', 'rust_analyzer', 'tsserver' }
 -- local servers = { 'jedi_language_server' }
-local servers = { 'jedi_language_server', 'sumneko_lua' }
+local servers = { 'jedi_language_server', 'sumneko_lua', 'intelephense' }
 for _, lsp in pairs(servers) do
     require('lspconfig')[lsp].setup {
         on_attach = on_attach,
