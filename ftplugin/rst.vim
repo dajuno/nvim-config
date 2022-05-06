@@ -1,0 +1,2 @@
+setlocal spell
+inoremap <Leader>> ⇒
